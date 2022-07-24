@@ -14,6 +14,7 @@ specifiers:
   lint-staged: ^13.0.3
   next: 12.2.3
   next-pwa: ^5.5.4
+  next-seo: ^5.5.0
   react: 18.2.0
   react-dom: 18.2.0
   sharp: ^0.30.7
@@ -24,6 +25,7 @@ specifiers:
 dependencies:
   next: 12.2.3_qugu52izettqdqqm5qcjcltcia
   next-pwa: 5.5.4_4odymaxzttzo3fzclrps3vht6a
+  next-seo: 5.5.0_53oqlnqnxhbetdy4ljlkkvmoby
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   sharp: 0.30.7
@@ -4544,6 +4546,18 @@ packages:
       - supports-color
       - uglify-js
       - webpack
+    dev: false
+
+  /next-seo/5.5.0_53oqlnqnxhbetdy4ljlkkvmoby:
+    resolution: {integrity: sha512-5ouBHFtx8YrSDW44lj0qIEQ+oMcz6stgoITB+SqHUZbhgizoJsyLmq73gJ0lxtEKpcN8vG2QgRIJfdb8OAPChw==}
+    peerDependencies:
+      next: ^8.1.1-canary.54 || >=9.0.0
+      react: '>=16.0.0'
+      react-dom: '>=16.0.0'
+    dependencies:
+      next: 12.2.3_qugu52izettqdqqm5qcjcltcia
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /next/12.2.3_qugu52izettqdqqm5qcjcltcia:
